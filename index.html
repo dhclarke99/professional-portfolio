@@ -1,53 +1,85 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-  <head>
+<head>
     <meta charset="UTF-8">
     <title>Portfolio - David Clarke</title>
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-  </head>
+</head>
 
-  <body>
+<body>
     <header>
-      <h1>David Clarke</h1>
-      <ul>
-        <li>About Me</li>
-        <li>Work</li>
-        <li>Contact Me</li>
-        <li>Resume</li>
-      </ul>
+        <h1>David Clarke</h1>
+        <ul>
+            <li> 
+                <a href="#about-me">About Me</a>
+            </li>
+            <li> 
+                <a href="#work">Work</a>
+            </li>
+            <li> 
+                <a href="#contact-me">Contact Me</a>
+            </li>
+            <li> 
+                <a href="#resume">Resume</a>
+            </li>
+        </ul>
     </header>
 
     /* add section for image*/
 
     <main>
-      <section>
-        <h2>About Me</h2>
-        <div class="container">
-          <img src="./assets/images/image-1.png" alt="box with number 1"/>
-          <img id="relative-box-2" src="./assets/images/image-2.png" alt="box with number 2"/>
-          <img src="./assets/images/image-3.png" alt="box with number 3"/>
-        </div>
-      </section>
+        <section>
+            <h2 id="about-me">About Me</h2>
+            <div class="container">
+                <p>Paragraph or two about me</p>
+            </div>
+        </section>
 
-      <section>
-        <h2> Work </h2>
-        <div class="container absolute-container">
-          <img src="./assets/images/image-1.png" alt="box with number 1"/>
-          <img id="absolute-box-2"src="./assets/images/image-2.png" alt="box with number 2"/>
-          <img src="./assets/images/image-3.png" alt="box with number 3"/>
-        </div>
-      </section>
+        <section>
+            <h2 id="work">Work</h2>
+            <div class="products">
+                <section class="project">
+                    <header>Horiseon Accessibility Refactor</header>
+                    <img src="./assets/images/camera.jpg" alt="Placeholder Image" />
+                    <p>HTML/CSS</p>
+                </section>
+                <section class="project">
+                    <header>Prework Study Guide</header>
+                    <img src="./assets/images/tablet.jpg" alt="Placeholder Image" />
+                    <p>HTML/CSS/JavaScript</p>
+                </section>
+                <section class="project">
+                    <header>Landing Page</header>
+                    <img src="./assets/images/toilet-paper.jpg" alt="Placeholder Image" />
+                    <p>HTML/CSS</p>
+                </section>
+                <section class="project">
+                    <header>Content Coming Soon!</header>
+                    <img src="./assets/images/wooden-spoons.jpg" alt="Placeholder Image" />
+                    <p>TBD</p>
+                </section>
+                <section class="project">
+                    <header>Content Coming Soon!</header>
+                    <img src="./assets/images/wooden-spoons.jpg" alt="Placeholder Image" />
+                    <p>TBD</p>
+                </section>
+            </div>
+        </section>
 
-      <section>
-        <h3> Contact Me </h3>
-        <div class="container absolute-container">
-          <img src="./assets/images/image-1.png" alt="box with number 1"/>
-          <img id="absolute-box-2"src="./assets/images/image-2.png" alt="box with number 2"/>
-          <img src="./assets/images/image-3.png" alt="box with number 3"/>
-        </div>
-      </section>
+        <section>
+            <h2 id="contact-me">Contact Me</h2>
+            <div>
+                <ul>
+                    <li>Phone Number</li>
+                    <li>email</li>
+                    <li>Github</li>
+                    <li>LinkedIn</li>
+                    <li>Spotify</li>
+                </ul>
+            </div>
+        </section>
     </main>
-  </body>
+</body>
 
 </html>

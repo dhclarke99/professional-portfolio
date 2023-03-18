@@ -41,3 +41,10 @@ li {
 a {
     color: hsl(182, 77%, 34%); 
 }
+
+main {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}

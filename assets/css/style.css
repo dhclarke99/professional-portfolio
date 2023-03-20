@@ -43,8 +43,15 @@ a {
 }
 
 main {
-    display: flex; 
+    display: flex;
     flex-direction: column;
     align-items: center;
     padding: 5px;
+}
+
+.content-header h2 {
+    float: left;
+    padding-right: 40px;
+    display: flex;
+    justify-content: center;
 }

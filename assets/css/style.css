@@ -49,9 +49,41 @@ main {
     padding: 5px;
 }
 
-.content-header h2 {
-    float: left;
-    padding-right: 40px;
+.content-header {
     display: flex;
-    justify-content: center;
+}
+
+.content-header h2 {
+    color: #3f4265;
+    text-decoration: underline;
+  
+}
+
+.project {
+    position: relative;
+    text-align: center;
+border: 2px solid lightblue;
+margin: 5px 0 5px 0;
+box-sizing: border-box;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.project img {
+max-width: 200px;
+max-height: 150px;
+}
+
+
+
+.products {
+    flex-wrap: wrap;
+}
+
+#contact-me {
+    border-right: 2px solid #3f4265;
 }

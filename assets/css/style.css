@@ -45,7 +45,7 @@ a {
 main {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     padding: 5px;
     margin: 0px 130px 0px 250px;
 }
@@ -54,6 +54,7 @@ main {
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
+    align-items: stretch;
 }
 
 .content-header h2 {
@@ -98,7 +99,14 @@ div {
 .centered {
     position: fixed
 }
-.content-header .first-section {
+
+.second-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/*.content-header .first-section {
  
 }
 
@@ -118,4 +126,4 @@ div {
 #third-section-header {
     position: relative;
     right: 344px
-}
+}*/

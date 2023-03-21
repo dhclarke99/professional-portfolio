@@ -83,12 +83,15 @@ box-sizing: border-box;
     left: 16px;
 }
 
-.project img {
+.project #first-img {
 max-width: 100%;
 max-height: 100%;
 }
 
-
+.project #other-img {
+    min-width: 600px;
+   
+    }
 
 .products {
     flex-wrap: wrap;
@@ -109,6 +112,7 @@ div {
 .second-section {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
 }
 

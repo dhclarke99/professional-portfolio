@@ -127,6 +127,9 @@ div {
 .footer {
     padding-left: 70px;
     padding-right: 70px;
+    color: #2c2d3c;
+    text-decoration: underline;
+    text-underline-offset: 5px;
 }
 
 #horiseon {
